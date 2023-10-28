@@ -30,7 +30,7 @@
 <style>
     .layout {
         display: grid;
-        grid-template-columns: 200px 60ch;
+        grid-template-columns: 200px minmax(auto, 60ch);
         gap: 4rem;
         margin-top: 2rem;
     }
